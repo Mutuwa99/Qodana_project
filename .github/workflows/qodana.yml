@@ -2,10 +2,10 @@ name: Qodana
 on:
   workflow_dispatch:
   pull_request:
-    branches: [master bks]
+    branches: [main bks]
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   qodana:
